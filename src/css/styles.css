@@ -19,17 +19,23 @@ body {
   margin-bottom: 16px;
 }
 /* =========================================== */
+.country-info {
+  display: flex;
+}
 .country-info__body {
-  width: 300px;
   padding: 10px;
   border-radius: 10px;
   border: #212121 solid 1px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 0;
 }
 .country-info__title {
   display: flex;
   align-items: center;
   border-radius: 10px;
-  border: #212121 solid 1px;
   padding: 5px;
 }
 .country-info__title_img {
@@ -48,27 +54,28 @@ body {
 }
 .country-info__statistics {
   font-size: 20px;
+  width: 100%;
+}
+.country-info__statistics p {
+  width: 100%;
 }
 .country-info__capital {
   padding: 5px;
   margin: 3px;
 
   border-radius: 10px;
-  border: #212121 solid 1px;
 }
 .country-info__population {
   margin: 3px;
   padding: 5px;
 
   border-radius: 10px;
-  border: #212121 solid 1px;
 }
 .country-info__Languages {
   padding: 5px;
   margin: 3px;
 
   border-radius: 10px;
-  border: #212121 solid 1px;
 }
 .country-list {
   margin: 0;
